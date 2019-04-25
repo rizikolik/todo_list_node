@@ -1,0 +1,33 @@
+{
+  "name": "todo_list_node",
+  "version": "1.0.0",
+  "description": "A todo app works using node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizikolik/todo_list_node.git"
+  },
+  "keywords": [
+    "todo",
+    "node",
+    "express",
+    "mongo"
+  ],
+  "author": "Yunus Ture",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizikolik/todo_list_node/issues"
+  },
+  "homepage": "https://github.com/rizikolik/todo_list_node#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.3"
+  }
+}
